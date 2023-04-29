@@ -460,7 +460,18 @@ h5,
 
 h1,
 .h1 {
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-family: 'GrandSlang-B-Side';
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--color-foreground);
+  margin: 0;
+  font-size: calc(var(--font-heading-scale) * 15rem);
+}
+
+h3, h4, h5, p, span, input, legend, label, button {
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @media only screen and (min-width: 750px) {
